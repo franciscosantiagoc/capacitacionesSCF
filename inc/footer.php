@@ -1,20 +1,29 @@
 <footer>
    <div class="container">
-            <div>
-               <img src="assets/img/logooficial.png" alt="Logo Centro SCF" width="150px">
-               <span c>Copyright&nbsp;© 2021</span></div>
-            <div >
-               <ul>
-                  <li><a href="https://www.facebook.com/capacitacionscf"><i class="fa fa-facebook"></i>Facebook</a></li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+      <div class="row">
+            <div class="col-md-4">
+               <img loading="lazy" id="imglogo" src="assets/img/logooficial.png" alt="Logo Centro SCF">
+               <span class="copyright">Copyright&nbsp;© 2021</span></div>
+            <div class="col-md-4">
+               <ul class="list-inline social-buttons">
+                  <li class="list-inline-item">
+                     <a href="https://www.facebook.com/capacitacionscf">
+                        <i class="fab fa-facebook-square"></i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                     </a>
+                  </li>
                </ul>
             </div>
-            <div>
-               <ul>
-                  <li><a href="politicas.php">Políticas de Privacidad</a></li>
+            <div class="col-md-4">
+               <ul class="list-inline quicklinks">
+                  <li class="list-inline-item"><a class="afooter" href="politicas.php">Políticas de Privacidad</a></li>
                </ul>
             </div>
-      
+      </div>
    </div>
    
 </footer>

@@ -4,10 +4,10 @@
         <title>Centro de capacitacion SCF</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/img/favicon.ico" />
         <link rel="stylesheet" href="assets/css/fontawesome/css/all.min.css">  
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
     </head>
     <body>
         <?php include ('./inc/nav.php'); ?>
@@ -107,39 +107,49 @@
                     <div class="col-lg-12">
                     <form id="contactForm" action="envio.php" method="POST" enctype="multipart/form-data"
                         novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col col-md-6">
-                                <div class="form-group">
-                                <input class="form-control" type="text" id="name" placeholder="Nombre" name="name"
-                                    required><small class="form-text text-danger flex-grow-1 help-block lead"></small>
-                                </div>
-                                <div class="form-group">
-                                <input class="form-control" type="text" id="name" placeholder="Apellidos" name="lastname"
-                                    required><small class="form-text text-danger flex-grow-1 help-block lead"></small>
-                                </div>
-                                <div class="form-group">
-                                <input class="form-control" type="email" id="email" placeholder="Email (Activo)" name="email"
-                                    required><small class="form-text text-danger help-block lead"></small>
+                        <div class="card border-primary rounded-0">
+                            <div class="card-header p-0">
+                                <div class="bg-info text-white text-center py-2">
+                                    <h3><i class="fa fa-envelope"></i> Contactanos</h3>
+                                    <p class="m-0">Con gusto te ayudaremos</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="card-body p-3">
+
+                                <!--Body-->
                                 <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Mensaje" name="message"
-                                    required></textarea><small class="form-text text-danger help-block lead"></small>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col">
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase"
-                                id="sendMessageButton" type="submit">Enviar mensaje</button>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+                                </div>
                             </div>
                         </div>
                     </form>
-                    <br>
-
-                
+                    <br>     
                     <div class="alert alert-info">
                         <strong>Info!</strong> Puedes usar letras, números y signos de puntuación (. , - y paréntesis), según sea necesario.
                     </div>
