@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #343a40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 70px;
+    margin-left: 20px;
+}
+.navbar-toggler{
+    font-size: 12px;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #fed136;
+    font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar-menu{    
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar-menu li{
+    margin-right: 15px ;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilos del Slide */
+main{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    
+}
+
+.slide-container{
+    display: flex;
+    width: 100%;
+    height: 850px;
+    
+    border-radius: 25px;
+    /* overflow-x: scroll; */
+    
+}
+
+.slide_section{
+    width: 100%;
+    height: 800px;
+    flex-shrink: 0;
+}
+.slide_section img{
+    width: 100%;
+    height: 800px;
+}
+
+.slide_section .slide-desc{
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+    transform: translateY(-100%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    /* border-radius: 0 0 15px 15px; */
+}
+
+.button_container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 150px;
+    width: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    margin-left: 20px;
+    transform: translateY(-80%);
+    background-color: rgba(0,0,0,.8);
+
+}
+
+.button_slide{
+    background-color: rgba(0,0,0,.5);
+    width: 20px;
+    height: 20px;
+    border: white solid 2px;
+}
+
+.button_slide.active{
+    transform: scale(2);
+}
+#btn_slid1{
+    background-image: url("../img/slide/industrial.jpg");
+    background-size: cover;
+}
+
+#btn_slid2{
+    background-image: url("../img/slide/altura.jpeg");
+    background-size: cover;
+}
+
+#btn_slid3{
+    background-image: url("../img/slide/inst-elect.jpg");
+    background-size: cover;
+}
+.button_slide:hover{
+    transform: scale(2);
+}
+
+
+
+
+
