@@ -148,6 +148,10 @@ main{
         font-size: 0.8rem;
         line-height: 0.9rem;
     }
+
+    .button_container{
+        transform: translateY(100%);
+    }
 }
 
 
