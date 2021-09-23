@@ -37,11 +37,18 @@
 
                 </div>     
             </div>
-            <div class="button_container">
+             <div class="button_container">
                 <div id="btn_slid1" class="button_slide active"></div>
                 <div id="btn_slid2" class="button_slide"></div>
                 <div id="btn_slid3" class="button_slide"></div>
-            </div>
+            </div> 
+            <!--<div class="container_buttons">
+                <div class="button_container">
+                    <div id="btn_slid1" class="button_slide active"></div>
+                    <div id="btn_slid2" class="button_slide"></div>
+                    <div id="btn_slid3" class="button_slide"></div>
+                </div>
+            </div>-->
         </main>
 
         <section id="objetivos">
