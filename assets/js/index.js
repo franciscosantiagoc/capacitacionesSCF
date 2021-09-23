@@ -28,13 +28,12 @@ function slides(){
     
     
     if(contador == sliderIndividual.length){
+        botones_slide[0].classList.add('active')
         setTimeout(function(){
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
-            contador=1;
-            botones_slide[contador].classList.add('active')
-            
-        },7000)
+            contador=1; 
+        },2000)
     }else{
         
         slider.style.transform = "translate("+(-width*contador)+"px)";

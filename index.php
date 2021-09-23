@@ -35,10 +35,7 @@
                         <p>Ofrecemos Curso de Capacitación en Seguridad de Instalaciones Eléctricas</p>
                     </div>
 
-                </div>
-
-                
-                
+                </div>     
             </div>
             <div class="button_container">
                 <div id="btn_slid1" class="button_slide active"></div>
@@ -95,37 +92,62 @@
             
         </section>
 
-        <section id="contacto">
-            <div>
-               <h2 >CONTACTANOS</h2>
-               <p>Si tienes alguna consulta con respecto a las fechas de impartición, formas de pago u alguna otra consulta envianos un mensaje mediante el siguiente
-                  formulario.</p>
-            </div>
-            <form id="contactForm">
-                <div class="form-row">
-                    <div class="input-container">
-                        <input class="form-control" type="text" id="name" placeholder="Nombre" name="name"
-                            required><small class="form-text-alert"></small>
-                    </div>
-                    <div class="input-container">
-                        <input class="form-control" type="text" id="name" placeholder="Apellidos" name="lastname"
-                            required>
-                    </div>
-                    <div class="input-container">
-                        <input class="form-control" type="email" id="email" placeholder="Email (Activo)" name="email"
-                            required>
-                    </div>
-                    <div class="input-container">
-                        <textarea class="form-control" id="message" placeholder="Mensaje" name="message"
-                            required></textarea>
-                    </div>
-                    
-                    <div class="input-container">
-                        <div id="success"></div>
-                        <button id="sendMessageButton" type="submit">Enviar mensaje</button>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">CONTACTANOS</h2>
+                    <h3 class="section-subheading text-muted contactext">Si tienes alguna consulta con respecto a las
+                        fechas
+                        de impartición, formas de pago u alguna otra consulta envianos un mensaje mediante el siguiente
+                        formulario.</h3>
                     </div>
                 </div>
-            </form>
+                <div class="row">
+                    <div class="col-lg-12">
+                    <form id="contactForm" action="envio.php" method="POST" enctype="multipart/form-data"
+                        novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="col col-md-6">
+                                <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Nombre" name="name"
+                                    required><small class="form-text text-danger flex-grow-1 help-block lead"></small>
+                                </div>
+                                <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Apellidos" name="lastname"
+                                    required><small class="form-text text-danger flex-grow-1 help-block lead"></small>
+                                </div>
+                                <div class="form-group">
+                                <input class="form-control" type="email" id="email" placeholder="Email (Activo)" name="email"
+                                    required><small class="form-text text-danger help-block lead"></small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Mensaje" name="message"
+                                    required></textarea><small class="form-text text-danger help-block lead"></small>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase"
+                                id="sendMessageButton" type="submit">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+
+                
+                    <div class="alert alert-info">
+                        <strong>Info!</strong> Puedes usar letras, números y signos de puntuación (. , - y paréntesis), según sea necesario.
+                    </div>
+
+
+                    </div>
+                </div>
+            </div>
         </section>
 
         <?php include './inc/footer.php'; ?>
