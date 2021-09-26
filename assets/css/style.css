@@ -1,7 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 body {
     background-color: #f9f9fa
 }
@@ -131,10 +128,10 @@ main{
         height: 80%;
     }
 
-    /* .container_buttons{
-        display: block;
-
-    } */
+    .row ~ .coursers {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -173,9 +170,13 @@ main{
 
 
 /* --------------------Estilos CARDS--------------------*/
+.row ~ .coursers {
+    display: flex;
+    justify-content: space-around;
+}
+
 .coursers ~ .row .card{
     max-width: 18rem;
-    margin-right: 30px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -201,19 +202,15 @@ main{
     section {
         padding: 100px 0;
     }
-}
 
-/* .card-body a{
-    margin-top: 30px;
     
-} */
-
-/* nav .name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    height: 70px;
-    box-sizing: border-box;
 }
-.name p{
-    width: 100px;
-} */
+
+/*-------------------------------------------------------------MODAL---------------------------------------------------------*/
+.modal-content {
+    width: 100%;
+}
+
+.inf-course img {
+    width: 100%;
+}
