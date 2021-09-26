@@ -11,7 +11,7 @@
     </head>
     <body>
         <?php include ('./inc/nav.php'); ?>
-        <main>
+        <main id="page-top">
             <div class="slide-container">
                 <div class="slide_section">
                     <img src="assets/img/slide/industrial.jpg" alt="Imagen de industrial">
@@ -42,13 +42,7 @@
                 <div id="btn_slid2" class="button_slide"></div>
                 <div id="btn_slid3" class="button_slide"></div>
             </div> 
-            <!-- <div class="container_buttons">
-                <div class="button_container">
-                    <div id="btn_slid1" class="button_slide active"></div>
-                    <div id="btn_slid2" class="button_slide"></div>
-                    <div id="btn_slid3" class="button_slide"></div>
-                </div>
-            </div> -->
+           
         </main>
 
         <section id="objetivos">
@@ -96,7 +90,93 @@
         </section>
 
         <section id="portafolio">
-            
+            <div class="container">
+                <div class="row coursers">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">Cursos</h2>
+                        <p class="section-subheading text-muted textcourse">Ofrecemos capacitación en los siguientes temas:
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Seguridad para trabajos en alturas</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course1.jpg">
+                             <p class="card-text"><em>Basado en la NOM-009-STPS</em></p> 
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course1">Ver más información</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Seguridad para en instalaciones eléctricas</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course2.jpg">
+                             <p class="card-text"><em>Basado en la NOM-029-STPS</em></p> 
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course2">Ver más información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Prevención y protección contra incendios</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course3.jpg">
+                             <p class="card-text"><em>Basado en la NOM-002-STPS</em></p> 
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course3">Ver más información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Seguridad en trabajos de corte y soldadura</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course4.jpg">
+                             <p class="card-text"><em>Basado en la NOM-027-STPS</em></p> 
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course4">Ver más información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Seguridad en espacios confinados</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course5-2.jpeg">
+                            <p class="card-text"><em>Basado en la NOM-033-STPS</em></p>
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course5">Ver más información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Seguridad y salud en los centros de construcción</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course6.jpg">
+                            <p class="card-text"><em>Basado en la NOM-031-STPS</em></p>
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course6">Ver más información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <p><strong>Sistema globalmente armonizado</strong></p>
+                        </div>
+                        <div class="card-body">
+                            <img loading="lazy" class="img-fluid" id="prueba" src="assets/img/courses/course7.jpg">
+                            <p class="card-text"><em>Basado en la NOM-018-STPS</em></p>
+                            <a class="btn btn-primary" data-toggle="modal" href="#inf-course7">Ver más información</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
 
         <section id="contact">
@@ -166,8 +246,40 @@
                 </div>
             </div>
         </section>
-
         <?php include './inc/footer.php'; ?>
+        
+
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+        <!-- ------------------------------MODAL---------------------------------- -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> x </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+                </div>
+            </div>
+        </div>
     <script src="assets/js/index.js" type="application/javascript" ></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js" type="application/javascript" ></script>
+    
     </body>
 </html>

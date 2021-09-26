@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /sendcontact.php
+Disallow: /politicas.php
+Disallow: /register.php
+Disallow: /AttachMailer.php
+Disallow: /footer.php
+Disallow: /nav.php
+
+
+
+Sitemap: https://centrodecapacitacion.com/sitemap.xml
+Sitemap: https://centrodecapacitacion.com/ror.xml

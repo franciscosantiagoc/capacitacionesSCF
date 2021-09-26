@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.centrodecapacitacionscf.com/</title>
+  <link>http://www.centrodecapacitacionscf.com/</link>
+
+<item>
+     <link>https://www.centrodecapacitacionscf.com/</link>
+     <title>Centro de Capacitación SCF</title>
+     <description>Centro de Capacitación SCF</description>
+     <description>te ofrece cursos de capacitación en seguridad industrial</description>
+     <ror:updatePeriod>17/02/2021</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.centrodecapacitacionscf.com/info-covid.html</link>
+     <title>Centro de Capacitación SCF Info Covid-19</title>
+     <description>Centro de Capacitación SCF</description>
+     <ror:updatePeriod>13/02/2021</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.centrodecapacitacionscf.com/index.php</link>
+     <title>Centro de Capacitación SCF</title>
+     <description>Centro de Capacitación SCF</description>
+     <description>Curso de Capacitación en Seguridad para Trabajos en Alturas</description>
+     <ror:updatePeriod>17/02/2021</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://www.centrodecapacitacionscf.com/index.php</link>
+     <title>Centro de Capacitación SCF</title>
+     <description>Seguridad en Trabajos de Corte y Soldadura</description>
+     <description>Curso de Capacitación en Seguridad en Instalaciones Eléctricas</description>
+     <ror:updatePeriod>17/02/2021</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://www.centrodecapacitacionscf.com/index.php</link>
+     <title>Centro de Capacitación SCF</title>
+     <description>Cursos económicos de Capacitación en Seguridad industrial</description>
+     <ror:updatePeriod>17/02/2021</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
