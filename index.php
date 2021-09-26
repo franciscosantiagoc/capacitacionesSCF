@@ -250,8 +250,6 @@
         <?php include './inc/footer.php'; ?>
         
 
-
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
         <!-- ------------------------------MODAL---------------------------------- -->
         <div class="modal fade inf-course" id="inf-course1" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
@@ -812,7 +810,7 @@
             </div>
         </div>
 
-        <div class="modal fade inf-course" id="inf-course6" tabindex="-1" aria-hidden="true">
+        <div class="modal fade inf-course" id="inf-course7" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -902,8 +900,8 @@
             </div>
         </div>
 
-    <script src="assets/js/index.js" type="application/javascript" ></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js" type="application/javascript" ></script>
+        <script src="assets/js/index.js" type="application/javascript" ></script>
+        <script src="assets/js/bootstrap/bootstrap.min.js" type="application/javascript" ></script>
     
     </body>
 </html>
