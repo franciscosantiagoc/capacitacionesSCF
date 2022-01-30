@@ -46,10 +46,10 @@
 
          
          // -> mensaje en formato Multipart MIME
-         $cabecera = "MIME-VERSION: 1.0\r\n";
+         /* $cabecera = "MIME-VERSION: 1.0\r\n";
          $cabecera .= "Content-type: multipart/mixed;";
          $cabecera .="boundary=\"=C=T=E=C=\"\r\n";
-         $cabecera .= "From: {$mail}";
+         $cabecera .= "From: {$mail}"; */
 
          //Primera parte del cuerpo del mensaje
          $cuerpo = "--=C=T=E=C=\r\n";
