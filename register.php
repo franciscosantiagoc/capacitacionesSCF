@@ -155,7 +155,7 @@ if(isset($_GET["buy"])){
             <select class="form-control" name="modal" required="">
                <optgroup label="Modalidad">
                   <option value="" selected="">Seleccione la Modalidad</option>
-                  <option value="vir">Virtual</option>
+                  <option value="virtual">Virtual</option>
                </optgroup>
             </select>
          </div>
