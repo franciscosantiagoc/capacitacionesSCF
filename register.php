@@ -181,7 +181,7 @@ if(isset($_GET["buy"])){
             }else if($r=='fail'){    
                 echo "
                 <div class='alert alert-danger'>
-                    <strong>Error!</strong> Lamentablemente, no se ha podido enviar tu mensaje$msj
+                    <strong>Error!</strong> Lamentablemente, no se ha podido enviar tu mensaje
                 </div>";
             }else if($r==''){
                 echo '<div class="alert alert-info">
