@@ -2,7 +2,7 @@
 
  //variables para los campos de texto
  if(isset($_POST['name'])){
-      if(isset($_POST['name']) && isset($_POST['lastname']) && isset($_POST['email']) && $_POST['message']){
+      if(isset($_POST['name']) && isset($_POST['email']) && $_POST['message']){
          $nombre = clean_d(strip_tags($_POST["name"]));
          $apellidos = clean_d(strip_tags($_POST["lastname"]));
          $mail = clean_d(strip_tags($_POST["email"]));
