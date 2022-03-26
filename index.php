@@ -210,7 +210,7 @@
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                                             </div>
-                                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre y Apellido" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -218,7 +218,7 @@
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
                                             </div>
-                                            <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@gmail.com" required>
                                         </div>
                                     </div>
 
@@ -227,7 +227,7 @@
                                             <div class="input-group-prepend">
                                                 <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
                                             </div>
-                                            <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                                            <textarea class="form-control" placeholder="Envianos tu Mensaje" name="message" required></textarea>
                                         </div>
                                     </div>
 
